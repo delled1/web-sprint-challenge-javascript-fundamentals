@@ -123,7 +123,7 @@ console.log(populationTotal);
 //   return cb(a, b);
 // }
 
-let consume = (a, b, cb) => cb(a, b);
+consume = (a, b, cb) => cb(a, b);
 
 // /* Step 2: Create several functions to callback with consume();
 //   * Create a function named add that returns the sum of two numbers
@@ -135,17 +135,17 @@ let consume = (a, b, cb) => cb(a, b);
 //   return num1 + num2;
 // }
 
-let add = (num1, num2) => num1 + num2;
+add = (num1, num2) => num1 + num2;
 
 // function multiply(num1, num2) {
 //   return num1 * num2;
 // }
-let multiply = (num1, num2) => num1 * num2;
+multiply = (num1, num2) => num1 * num2;
 
 // function greeting(firstName, lastName) {
 //   return `Hello ${firstName} ${lastName}, nice to meet you!`;
 // }
-let greeting = (firstName, lastName) =>
+greeting = (firstName, lastName) =>
   `Hello ${firstName} ${lastName}, nice to meet you!`;
 
 // /* Step 3: Check your work by un-commenting the following calls to consume(): */
